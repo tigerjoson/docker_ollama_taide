@@ -1,0 +1,5 @@
+docker desktop start
+rem restart rag-api
+docker-compose restart rag-api
+rem 啟動
+docker compose start

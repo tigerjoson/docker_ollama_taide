@@ -1,3 +1,5 @@
 mkdir ollama_models
 mkdir qdrant_storage
 mkdir app
+mv Dockerfile app/
+mv requirements.txt app/

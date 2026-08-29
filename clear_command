@@ -1,0 +1,7 @@
+rem 停止所有服務
+docker compose stop
+# 停止並刪除容器、網路 
+docker compose down
+# 同時刪除資料卷 docker compose down -v # 同時刪除所有服務映像 docker compose down --rmi all
+rem 重新啟動
+docker compose up -d

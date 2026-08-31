@@ -3,3 +3,4 @@ mkdir qdrant_storage
 mkdir app
 mv Dockerfile app/
 mv requirements.txt app/
+mv main.py app/

@@ -1,0 +1,6 @@
+.gitattributes
+docker-compose.yaml
+ollama_models
+qdrant_storage
+app/__pycache__/*
+
